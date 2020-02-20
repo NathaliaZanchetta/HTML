@@ -1,0 +1,63 @@
+/*
+height - Altura do elemento
+width - Largura do elemento
+padding - Espaçamento Interno
+margin - Espaçamento Externo*/
+
+body{
+  /*O background englobar todas as outras propiedades em uma única linha:
+  background: backgrond-color background-image background-repeat background-position;
+  background: #cccccc;*/
+
+}
+
+.titulo-cabecalho{
+  padding-left: 20px;
+}
+
+#banner{
+width: 100%;
+}
+
+.principal{
+  background-color: #cccccc;
+  padding: 30px;
+}
+
+.titulo-centralizado{
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+#missao{
+font-size: 20px;
+text-align: center;
+}
+
+#missao-msg{
+  color: red;
+}
+
+.itens{
+  font-style: italic
+}
+
+.beneficios{
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.minhalista{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficio{
+  width: 30%;
+}

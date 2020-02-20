@@ -1,0 +1,73 @@
+<!-- informa ao meu navegador qual versão do html é para ser usado, nesse caso ele já aponta para a versão mais atual.-->
+<!DOCTYPE html>
+
+<!-- A tag "HTML" irá definir o que é html, já q posso usar JavaScript e CSS preciso ter distinção entre eles. o "lang" é para definir a linguagem do meu html, nesse caso português.-->
+<html lang="PT-BR">
+
+  <!--A Tag "HEAD" é a que passa as informações de configurações para meu navegador.-->
+  <head>
+    <!--Faz a seleção do dicionario sendo usado.-->
+    <meta charset="utf8">
+    <!--Titulo que aparece na aba do navegador.-->
+    <title>Barbearia Alura</title>
+    <!--Como referenciar meu arquivo CSS-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/produtos.css"/>
+  </head>
+
+  <!--A tag "BODY" é a que passa o que será exibido no navegador-->
+  <body>
+
+    <header>
+      <div class="cabecalho">
+        <h1><img src="midia/logo.png"></h1>
+        <!-- a tag <a> serve para linkar meus conteudos-->
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="produtos.html">Produtos</a>
+            </li>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <ul class="produtos">
+        <li>
+          <h2>Cabelo</h2>
+          <img src="midia/cabelo.jpg">
+          <p class="produto-descricao">Na tesoura ou Máquina, como o cliente preferir</p>
+          <p class="produto-preco">R$ 25,00</p>
+        </li>
+
+        <li>
+          <h2>Barba</h2>
+          <img src="midia/barba.jpg">
+          <p class="produto-descricao">Corte e desenho profissional de barba</p>
+          <p class="produto-preco">R$ 18,00</p>
+        </li>
+
+        <li>
+          <h2>Cabelo + Barba</h2>
+          <img src="midia/cabelo+barba.jpg">
+          <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+          <p class="produto-preco">R$ 35,00</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <img src="midia/logo-branco.png">
+      <p class="Copyright">
+        &copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+
+  </body>
+</html>
